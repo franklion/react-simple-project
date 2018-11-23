@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
+import Nav from '../../components/Nav'
 
 
 // style
@@ -9,7 +10,10 @@ import './style.css'
 class BmiContainer extends Component {
     render() {
         return (
-            <h1>BmiContainer</h1>
+            <div>
+                <h1>BmiContainer</h1>
+                <Nav />
+            </div>
         )
     }
 }
