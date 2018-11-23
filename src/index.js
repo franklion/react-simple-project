@@ -17,16 +17,6 @@ ReactDOM.render(
             <Route path="/one" component={ BmiContainer } exact />
             <Route path="/two" component={ CounterContainer } exact />
         </div>
-           
-        {/* <HomeContainer /> */}
     </MemoryRouter>,
-
-    // <BrowserRouter>
-    //     <section>
-    //         <Route path="/" component={ HomeContainer } exact />
-    //         <Route path="/bmi" component={ BmiContainer }/>
-    //         <Route path="/counter" component={ CounterContainer } />
-    //     </section>           
-    //   </BrowserRouter>,
     document.getElementById('main')
 )
